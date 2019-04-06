@@ -14,7 +14,7 @@ module.exports = React.createClass({
     return (
       <div id="app">
         { this.state.error ? <p>{this.state.error}</p> : null }
-        <Flickr />
+        <Flickr showError={this.showError}/>
       </div>
     );
   }

@@ -57,7 +57,9 @@ var config = {
   devServer: {
     contentBase: './public',
     historyApiFallback: true,
-    proxy: { '*': 'http://localhost:3001' }
+    proxy: { '*': 'http://localhost:3001' },
+    host: '0.0.0.0',
+    disableHostCheck: true
   },
 
   eslint: {
