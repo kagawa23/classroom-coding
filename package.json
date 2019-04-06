@@ -38,9 +38,9 @@
     "pg-hstore": "^2.3.2",
     "pointfree-fantasy": "^0.1.1",
     "ramda": "^0.18.0",
-    "react": "*",
+    "react": "15.0.1",
     "react-dom": "^0.14.2",
-    "react-hot-loader": "*",
+    "react-hot-loader": "^1.0.0",
     "sanctuary": "^0.7.1",
     "sequelize": "^3.13.0",
     "superagent": "^1.4.0"
