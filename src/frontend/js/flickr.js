@@ -1,4 +1,5 @@
 const React = require('react')
+const DragImage= require('./drag_image')
 const { flickrSearch } = require('./model')
 
 module.exports = React.createClass({
@@ -19,7 +20,7 @@ module.exports = React.createClass({
     },
 
 	render() {
-		const imgs = this.state.result.map(src => <img src={src} key={src}/>)
+		const imgs = this.state.result.map(src => <DragImage src={src} key={src}/>)
     return (
         <div id="flickr">
                     <input type="text" onChange={this.termChange}/>
